@@ -31,3 +31,19 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/butto
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
 
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Medicare'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_visit_date'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_11'))
+
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_comment'), 'Test')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
+
+WebUI.closeBrowser()
+
