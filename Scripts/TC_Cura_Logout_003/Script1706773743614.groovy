@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demoaut.katalon.com/')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_username'), 'John Doe')
+WebUI.setText(findTestObject('LoginPage_CURA Healthcare Service/input_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('LoginPage_CURA Healthcare Service/input_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'), 'Make Appointment')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/LogoutPage_CURA Healthcare Service/a_Logout'))
 
