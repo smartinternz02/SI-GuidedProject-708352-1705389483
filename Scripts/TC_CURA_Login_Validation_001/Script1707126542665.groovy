@@ -25,9 +25,13 @@ WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/i_CURA Healthcare_
 
 WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('LoginPage_CURA Healthcare Service/input_username'), username)
+WebUI.setText(findTestObject('LoginPage_CURA Healthcare Service/input_username'), findTestData('Cura_Test_data/Cura_H_Login_Test_Data').getValue(
+        'username', 1))
 
-WebUI.setText(findTestObject('LoginPage_CURA Healthcare Service/input_password'), password)
+WebUI.setText(findTestObject('LoginPage_CURA Healthcare Service/input_password'), findTestData('Cura_Test_data/Cura_H_Login_Test_Data').getValue(
+        'password', 1))
 
 WebUI.click(findTestObject('LoginPage_CURA Healthcare Service/button_Login'))
+
+WebUI.closeBrowser()
 
