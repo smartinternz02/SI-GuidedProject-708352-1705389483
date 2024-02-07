@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_CURA_Login_Validation_001</name>
+   <name>TC_Cura_Login_Variable_001</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>20b771e3-c9b1-4c83-ab39-56761df40cb0</testCaseGuid>
+   <testCaseGuid>0b4f9941-aa38-400e-ba53-cc0176cd3962</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b7f6b000-7728-4e46-9ad7-88cfb32c4965</variableId>
+      <variableId>25c23ad3-d659-48a1-9b90-db188926672e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>87c2034d-652a-4ef7-a65a-27d2dfaf82f0</variableId>
+      <variableId>0e266d86-1fa4-447c-9768-10cc0b2226cf</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>b7f6b000-7728-4e46-9ad7-88cfb32c4965</id>
+      <id>25c23ad3-d659-48a1-9b90-db188926672e</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>87c2034d-652a-4ef7-a65a-27d2dfaf82f0</id>
+      <id>0e266d86-1fa4-447c-9768-10cc0b2226cf</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_Excel_001</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Cura_Test_data/Cura_H_Login_Test_Data</source-url>
+   </source-info>
+   <taken-date>2024-02-07T09:50:51.482+05:30</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John Doe",
+      "checked": true
+    },
+    {
+      "value": "ThisIsNotAPassword",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "John Doe",
+      "checked": true
+    },
+    {
+      "value": "ThisIsNotPassword",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Jonh Doe",
+      "checked": true
+    },
+    {
+      "value": "ThisIsNotAPassword",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "John Doo",
+      "checked": true
+    },
+    {
+      "value": "ThisIsPassword",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

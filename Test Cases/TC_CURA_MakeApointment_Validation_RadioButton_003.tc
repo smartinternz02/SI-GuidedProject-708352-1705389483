@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_CuraH_Login_001</name>
+   <name>TC_CURA_MakeApointment_Validation_RadioButton_003</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0b4f9941-aa38-400e-ba53-cc0176cd3962</testCaseGuid>
+   <testCaseGuid>7322ab8d-4663-439c-915f-64004a5953fc</testCaseGuid>
 </TestCaseEntity>
