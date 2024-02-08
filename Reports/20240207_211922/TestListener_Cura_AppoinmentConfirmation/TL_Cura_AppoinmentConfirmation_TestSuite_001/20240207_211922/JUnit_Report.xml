@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_Cura_AppoinmentConfirmation_TestSuite_001" time="33.893" tests="1" failures="0" errors="0">
+   <testsuite name="TL_Cura_AppoinmentConfirmation_TestSuite_001" tests="1" failures="0" errors="0" time="33.893" skipped="0" timestamp="07-02-2024T21:19:57" hostname="WINDOWS 11 - LENOVO" id="Test Suites/TestListener_Cura_AppoinmentConfirmation/TL_Cura_AppoinmentConfirmation_TestSuite_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS 11\\git\\SI-GuidedProject-708352-1705389483\\SI-GuidedProject-708352-1705389483\\Reports\\20240207_211922\\TestListener_Cura_AppoinmentConfirmation\\TL_Cura_AppoinmentConfirmation_TestSuite_001\\20240207_211922"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS 11\\git\\SI-GuidedProject-708352-1705389483\\SI-GuidedProject-708352-1705389483\\Reports\\20240207_211922\\TestListener_Cura_AppoinmentConfirmation\\TL_Cura_AppoinmentConfirmation_TestSuite_001\\20240207_211922\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WINDOWS 11\\git\\SI-GuidedProject-708352-1705389483\\SI-GuidedProject-708352-1705389483\\Reports\\20240207_211922\\TestListener_Cura_AppoinmentConfirmation\\TL_Cura_AppoinmentConfirmation_TestSuite_001\\20240207_211922\\1707321031472.png"/>
+         <property name="hostName" value="WINDOWS 11 - LENOVO"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.51.70"/>
+         <property name="sessionId" value="99965ce6dd1143d8f8fcaf4d5c5ad832"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TestListener/TC_TL_Cura_AppoinmentConfirmation_001" time="15.654" classname="Test Cases/TestListener/TC_TL_Cura_AppoinmentConfirmation_001" status="PASSED">
+         <system-out><![CDATA[07-02-2024T21:20:16 - [TEST_CASE][PASSED] - Test Cases/TestListener/TC_TL_Cura_AppoinmentConfirmation_001: Test Cases/TestListener/TC_TL_Cura_AppoinmentConfirmation_001
+
+07-02-2024T21:20:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-02-2024T21:20:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/input_username'
+
+07-02-2024T21:20:18 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/input_username'
+
+07-02-2024T21:20:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/input_password'
+
+07-02-2024T21:20:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/input_password'
+
+07-02-2024T21:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-02-2024T21:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+07-02-2024T21:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+07-02-2024T21:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+07-02-2024T21:20:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+07-02-2024T21:20:26 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+07-02-2024T21:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/label_Medicare")): Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/label_Medicare' is clicked on
+
+07-02-2024T21:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/label_Medicare' is clicked on
+
+07-02-2024T21:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-02-2024T21:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+07-02-2024T21:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/td_27")): Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/td_27' is clicked on
+
+07-02-2024T21:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/td_27' is clicked on
+
+07-02-2024T21:20:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/textarea_comment"), "test"): Text 'test' is set on object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/textarea_comment'
+
+07-02-2024T21:20:29 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/textarea_comment'
+
+07-02-2024T21:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-02-2024T21:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+07-02-2024T21:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/h2_Appointment Confirmation")): Object: 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+07-02-2024T21:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+07-02-2024T21:20:31 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_TL_AppoinmentConfirmation.sampleAfterTestCase(Cura_TL_AppoinmentConfirmation.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707320962446.run(TempTestSuite1707320962446.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+07-02-2024T21:20:31 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/i_fa fa-bars")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_TL_AppoinmentConfirmation.sampleAfterTestCase(Cura_TL_AppoinmentConfirmation.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707320962446.run(TempTestSuite1707320962446.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+07-02-2024T21:20:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/i_fa fa-bars' does not exist
+
+07-02-2024T21:20:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+07-02-2024T21:20:31 - [MESSAGE][FAILED] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_TL_AppoinmentConfirmation.sampleAfterTestCase(Cura_TL_AppoinmentConfirmation.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707320962446.run(TempTestSuite1707320962446.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\WINDOWS 11\\git\\SI-GuidedProject-708352-1705389483\\SI-GuidedProject-708352-1705389483\\Reports\\20240207_211922\\TestListener_Cura_AppoinmentConfirmation\\TL_Cura_AppoinmentConfirmation_TestSuite_001\\20240207_211922\\1707321031472.png]]
+
+07-02-2024T21:20:31 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_TL_AppoinmentConfirmation.sampleAfterTestCase(Cura_TL_AppoinmentConfirmation.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707320962446.run(TempTestSuite1707320962446.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T21:19:57 - [TEST_SUITE][PASSED] - TL_Cura_AppoinmentConfirmation_TestSuite_001: Test Cases/TestListener/TC_TL_Cura_AppoinmentConfirmation_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
