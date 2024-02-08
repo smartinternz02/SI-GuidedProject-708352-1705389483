@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_AppoinmentConfirmation_TestSuite_001,Chrome 120.0.0.0,,,08-02-2024 14:07:24,08-02-2024 14:07:47,22.662s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_TL_Cura_AppoinmentConfirmation_001,Chrome 120.0.0.0,,,08-02-2024 14:07:37,08-02-2024 14:07:47,9.777s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,08-02-2024 14:07:37,08-02-2024 14:07:41,3.998s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,08-02-2024 14:07:41,08-02-2024 14:07:42,0.467s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,08-02-2024 14:07:42,08-02-2024 14:07:43,1.377s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/label_Medicare""))",Chrome 120.0.0.0,,,08-02-2024 14:07:43,08-02-2024 14:07:44,0.393s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,08-02-2024 14:07:44,08-02-2024 14:07:44,0.427s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/td_27""))",Chrome 120.0.0.0,,,08-02-2024 14:07:44,08-02-2024 14:07:45,0.496s,PASSED
+"setText(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/textarea_comment""), ""test"")",Chrome 120.0.0.0,,,08-02-2024 14:07:45,08-02-2024 14:07:45,0.782s,PASSED
+"click(findTestObject(""Object Repository/TL_Cura_Page_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,08-02-2024 14:07:45,08-02-2024 14:07:46,0.726s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/h2_Appointment Confirmation""))",Chrome 120.0.0.0,,,08-02-2024 14:07:46,08-02-2024 14:07:47,0.595s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,08-02-2024 14:07:47,08-02-2024 14:07:47,0.249s,ERROR
